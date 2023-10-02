@@ -1,0 +1,190 @@
+/* ////////////////////////////////////////////////////// */
+/* for large display */
+
+@media (min-width: 991px) {
+
+}
+@media (max-width: 1200px) {
+
+}
+/* ///////////////////////////////////////////////////// */
+/* for tablate */
+@media (max-width: 991px) {
+    /* start header  */
+.phone-page{
+height: 100vh;
+position: absolute;
+left: 0px;
+top: 0;
+width: 50%;
+background-color:transparent;
+overflow: hidden;
+z-index: 3;
+display: none;
+}
+.phone{
+    position: absolute;
+    left: -100%;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color:black;
+    transition: 2s all !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: start !important;
+    align-items: center !important;
+z-index:50 ;    
+}
+    .phone ul{
+    display: flex;
+    flex-direction: column;
+    }
+    .bar{
+        z-index: 4;
+        }
+    .closes button{
+      font-size: 30px !important;
+      width: 60px;
+      height: 60px;
+        }
+    .links {
+    margin-top: 50px;
+    }
+.links ul li{
+   width: 100%;
+    padding: 20px 0px !important;
+margin: 0px !important;
+font-size: 25px !important;
+}
+.number{
+margin-top: 50px;
+}
+    /* end header  */
+    /* start info  */
+    .big-image{
+      width: 100%;
+      height: 80vh !important ;
+      }
+      .big-image .front-image img{
+        right: -110px !important;
+        bottom: -60px;
+      width: 50%;
+      height: 50vh !important;
+      }
+    /* end info  */
+    /* ///////////////////////////// */
+    /* start transform  */
+    .transform h1{
+        font-size: 25px;
+    }
+    /* end transform  */
+
+}
+/* //////////////////////////////////////////////////////// */
+/* for mobile */
+@media (max-width: 768px) {
+    /* start header  */
+    .phone-page{
+    width: 100vw !important;
+}
+.landing .autoplay div .text-landing{
+    top: 50% !important;
+    left: 50% !important;
+    text-align: center;
+    transform: translate( -50% ,-50%) !important;
+    width: 70% !important;
+    }
+    .landing .autoplay div .text-landing h2{
+    font-size:35px !important;
+    line-height: 50px;
+    }
+    .landing .autoplay div .text-landing p{
+    font-size: 20px !important;
+    line-height: 40px;
+      }
+      .landing .autoplay div .text-landing button{
+        font-weight: bold;
+      font-size: 20px;
+        }
+    /* end header  */
+    /* ///////////////////////////////// */
+/* start info  */
+.right h5{
+width: 50% !important;
+}
+.big-image{
+    width: 80% !important;
+    height: 50vh !important ;
+    }
+    .big-image .front-image img{
+      right: -35px !important;
+      bottom: -60px;
+    width: 50%;
+    height: 25vh !important;
+}
+/* end info  */
+/* ///////////////////////////// */
+/* start transform  */
+.transform {
+width: 90% !important;
+margin-left: 5%;
+margin-right: 5%;
+    }
+    .autoplay2 div  {
+        width: 95%;
+      }
+      .autoplay2 div > img {
+        border-radius: 20px;
+        width: 100%;
+      }
+    .transform h1{
+        font-size: 25px !important;
+    }
+    .transform h1::after{
+ width: 50% !important;
+ right: 25% !important;
+      }
+      .slick-prev:before {
+        position: relative;
+        left: 10px;
+        }
+    .slick-next:before {
+            position: relative;
+            right: 35px !important;
+            }
+            .slick-prev, .slick-next {
+            z-index: 22;
+            }
+    /* end transform  */
+ /*////////////////////////////////  */
+ /* start sale  */
+
+ .card{
+margin: 0 !important; 
+}
+ /* end sale  */
+ footer div h5 {
+  font-size: 18px;
+  }
+}
+/* //////////////////////////////////////////////////////// */
+/* for small mobile */
+@media (max-width: 350px) {
+
+      /* start header  */
+        .landing .autoplay div .text-landing h2{
+        font-size:25px !important;
+    line-height: 40px !important;    
+    }
+        .landing .autoplay div .text-landing p{
+        font-size: 15px !important;
+    line-height: 28px !important;    
+          }
+          .landing .autoplay div .text-landing button{
+          font-size: 17px !important;
+            }
+        /* end header  */
+
+
+}
